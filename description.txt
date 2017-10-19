@@ -1,0 +1,1 @@
+This mod adds tool ware level alerts. When a tool gets below a level (set by .warn_lvl), it will display a colored warning message with sound.
