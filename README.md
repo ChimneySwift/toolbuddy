@@ -31,4 +31,4 @@ Code: **MIT License**
 
 -Also test armor being worn (Limited by API)
 
--Reset `last_wear` whenever the user changes the held item (Limited by API, currently will change whenever a different tool is used)
+-Reset `last_wear` whenever the user changes the held item (Limited by API, currently will reset whenever a different tool is used)
