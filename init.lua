@@ -74,7 +74,7 @@ minetest.register_on_punchnode(function(pos, node)
 end)
 
 function checkTool()
-    local tool = minetest.get_wielded_item()
+    local tool = minetest.localplayer:get_wielded_item()
     local warn = modstorage:get_string("warn")
 
     if last_tool ~= tool:get_name() then
